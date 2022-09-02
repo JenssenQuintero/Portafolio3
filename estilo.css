@@ -1,0 +1,157 @@
+@font-face {
+    font-family:Product Sans;
+    src: url(Product\ Sans\ Regular.ttf);
+  }
+
+ 
+  .banner { /*Imagen del banner */
+    
+    
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translatey(33%);
+    
+  }
+
+  body{
+    background-image: url(imagenes/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  .capa{ /*opacidad de Imagen del banner */
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.1);
+  }
+
+  .info{ /*contenido de la info */
+      z-index: 1; /*hacer que cualquier contenido este en prioridad de la capa */
+      width: 100%;
+      max-width: 550px;
+      text-align: center;
+  }
+
+  .info h1{ /*Titulo */
+      color: #fff;
+      font-size: 45px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+  }
+
+  .info a{ /*boton */
+    color: #fff;
+    text-align: none;
+    background-color: #7a1eb8;
+    padding: 16px 37px;
+    border-radius: 50px;
+  }
+
+  .info p{  /*texto */
+      color: #c7c7c7;
+      line-height: 1.7;
+      margin-bottom: 30px;
+  }
+
+  .f_nav{
+    font-size: 19px;
+    color: rgb(125, 61, 198);
+ }
+
+ .f_nav:hover{
+   color:rgb(125, 61, 198);
+ }
+
+  .container a{
+    color: #fff;
+    text-align: none;
+    background-color: #7a1eb8;
+    padding: 16px 37px;
+    border-radius: 50px;
+    align-items: center;
+  }
+
+  .menu{
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .menu a{ /*boton */
+    color: #fff;
+    text-align: none;
+    background-color: #7a1eb8;
+    padding: 16px 37px;
+    border-radius: 50px;
+    
+  }
+
+  .container2 {
+    font-family: Product Sans;
+    background-color: rgb(12, 12, 12);;
+    margin-top: -25px;
+  }
+
+  .container-fluid{
+    font-family: Product Sans;
+    padding-top: 45px;
+    padding-bottom: 15px; 
+    background-size: 100%;
+  }
+
+  .container-fluid2{
+    font-family: Product Sans;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+
+  }
+
+  img.rounded-corners {
+    border-radius: 15px;
+  }
+
+  .carousel{background: rgb(12, 12, 12);
+width: 1885px; height: 1050;}
+  .carousel-control.right, .carousel-control.left { /*--estilo banner--*/
+  background-image: none;
+  color: rgb(125, 61, 198);
+}
+.carousel-indicators li {
+  border-color: rgb(125, 61, 198);
+  transform: translateY(20px);
+}
+.carousel-indicators li.active {
+  background-color: rgb(125, 61, 198);
+}
+
+.tit2{
+    font-family: Product Sans Bold;
+    color: rgb(125, 61, 198);
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  .txt{
+    font-family: Product Sans;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #c7c7c7;
+  }
